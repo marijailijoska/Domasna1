@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <link rel="stylesheet" href="style.css">
         <title>Prva lab vezba</title>
     </head>
-
+     <style>
+      h1,legend {color: rgb(246, 71, 141);}
+     </style>
     <body>
-        <h1 style="font-size:250%;">Dado Tea Lunch Special!</h1>
+        <h1 class="naslov" style="font-size:250%;">Dado Tea Lunch Special!</h1>
 
         <p>Monday through Friday.<br>11am-3pm.<br>$9.95 plus tax.</p>
         <p>Includes sandwich,snack and drink</p>
         <fieldset>
-            <legend>Order Information</legend>
+            <legend><b>Order Information</b></legend>
             <form>
                 <label for="fname">Name:</label><br>
                 <input type="text" id="fname" name="fname">
@@ -27,7 +30,12 @@
           </fieldset>
 
           <fieldset>
-            <legend>Sandwiches</legend>
+            <legend><b>Sandwiches</b></legend>
+            <div>
+              <img src="food.png" class="slika">
+              <img src="Sandwich_PNG_Clipart_Vector_Picture.png" class="slika5">
+            </div>
+            
             <p><b>Monday</b></p>
             <form>
                 <input type="checkbox" id="tom1" name="tom1" value="Tomato">
@@ -70,7 +78,12 @@
           </fieldset>
 
           <fieldset>
-            <legend>Snack</legend>
+            <legend><b>Snack</b></legend>
+            <div>
+              <img src="84231.png" class="slika1">
+              <img src="Large_Painted_Red_Apple_PNG_Clipart.png" class="slika2">
+              <img src="Potato_Chips_PNG_Vector_Clipart.png" class="slika3">
+            </div>
             <p><b>Snacks</b></p> 
 
             <form>
@@ -86,10 +99,14 @@
      
 
           <fieldset>
-            <legend>Drink</legend>
+            <legend><b>Drink</b></legend>
+            <div>
+              <img src="Cocktail-Soda-PNG-Clipart.png" class="slika4">
+              
+            </div>
             <p><b>Drinks</b></p> 
             <form action="/action_page.php">
-                <label for="cars">Choose a car:</label>
+                <label for="cars">Choose a drink:</label>
                 <select id="cars" name="cars">
                   <option value="volvo">Hot Black Tea</option>
                   <option value="saab">Sprite</option>
@@ -104,10 +121,10 @@
             <hr>
             <form>
                 <input type="radio" id="dri" name="dri" value="dri">
-                <label for="dri">Large drink (75e extra)</label><br>   
+                <label for="dri" >Large drink (75e extra)</label><br>   
             </form>
           </fieldset>
 
-        <button>Place order</button>
+        <button class="kopce"><b>Place order</b></button>
     </body>
 </html>

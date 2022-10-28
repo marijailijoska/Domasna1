@@ -1,0 +1,92 @@
+h1,legend
+{
+ color: rgb(249, 49, 205);
+ text-align: center;
+ font-size: 150%;
+}
+
+body{
+    
+    background-image: url("pexels-photo-1831234.webp");
+    background-size: cover;
+    
+   
+}
+.slika
+{
+  width: 10cm;
+  position:relative;
+  top:350px;
+  left: 1000px;
+}
+
+.slika1{
+  width: 4cm;
+  position:relative;
+  top:90px;
+  left: 1300px;
+}
+.slika2{
+  width: 4cm;
+  position: relative;
+  top:90px;
+  left: 1050px;
+}
+.slika3{
+  width: 6cm;
+  position: relative;
+  top:90px;
+  left: 725px;
+}
+.slika4{
+  width: 4cm;
+  position: relative;
+  top:70px;
+  left: 1300px;
+}
+.slika5{
+  width: 9cm;
+  position:relative;
+  top:400px;
+  left: 400px;
+}
+
+.kopce{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #f0b8da;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+input[type=text] {
+  width: 30%;
+  background-color:rgb(251, 220, 240);
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(205, 104, 210);
+  border-radius: 4px;
+}
+
+
+select {
+  width: 30%;
+  padding: 16px 20px;
+  border:2px solid rgb(205, 104, 210);
+  border-radius: 4px;
+  background-color:rgb(251, 220, 240) ;
+}
+
+.naslov
+{
+  text-shadow: 2px 2px 7px black;
+  
+}
